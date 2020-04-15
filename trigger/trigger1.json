@@ -1,0 +1,30 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PM_ETLXXXXD_ProjectName_Load_data_Employee_AzureBlob_SQLDB",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 1,
+				"startTime": "2020-04-14T17:02:00Z",
+				"endTime": "2020-04-15T10:31:00Z",
+				"timeZone": "UTC",
+				"schedule": {
+					"monthDays": [
+						14
+					]
+				}
+			}
+		}
+	}
+}
