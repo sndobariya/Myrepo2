@@ -1,0 +1,25 @@
+{
+	"name": "DataSource1",
+	"properties": {
+		"description": "Connect to your data source store.",
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"structure": [
+			{
+				"name": "Emp_ID",
+				"type": "Int32"
+			},
+			{
+				"name": "Emp_Name",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[Employee]"
+		}
+	}
+}

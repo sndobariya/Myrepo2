@@ -1,0 +1,25 @@
+{
+	"name": "DataDestination1",
+	"properties": {
+		"description": "Connect to your data destination store.",
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "Emp_Id",
+				"type": "Int32"
+			},
+			{
+				"name": "Emp_Name",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[Employee_out]"
+		}
+	}
+}
