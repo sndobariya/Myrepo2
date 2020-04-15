@@ -1,0 +1,12 @@
+{
+	"name": "linkedService1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Netezza",
+		"typeProperties": {
+			"connectionString": "server=fsdfdfdf;port=1400;database=test;uid=admin1;securitylevel=preferredUnSecured",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFaVVJFREFUQUZBQ1RPUllURVNUOTEyM180M2QwMThkNy03NmQ1LTRkYWQtYWNiZS1iNDNhOTQ5OWUyY2EiDQp9"
+		}
+	}
+}
