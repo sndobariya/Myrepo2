@@ -8,6 +8,16 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "Emp_Id",
+				"type": "Int32"
+			},
+			{
+				"name": "Emp_Name",
+				"type": "String"
+			}
+		],
 		"typeProperties": {
 			"tableName": "[dbo].[Employee_out]"
 		}
